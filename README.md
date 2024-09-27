@@ -25,7 +25,7 @@ By focusing on binary classification algorithms, our goal is to create a tool th
         - These results reflect the model’s performance in correctly classifying skin lesions into cancerous or non-cancerous categories.
         - Visualization: To provide further insights into the model's performance, accuracy metrics were plotted over the training epochs. The visualization below shows the progression of both training and validation accuracy:
         
-        ![Training and Validation Accuracy](../294P-SkinCancer/image.png)
+        ![](../294P-SkinCancer/image.png)
 
 - This plot demonstrates how the model's accuracy improved over time, with the validation accuracy being slightly higher than the training accuracy. This suggests that the model generalizes well to the validation set and can identify skin cancer cases with a reasonable degree of accuracy.
 
@@ -55,15 +55,11 @@ __Claim 3__: High-Quality Image Preprocessing Improves Model Performance
 
 Image preprocessing is crucial in preparing data for CNN models. By enhancing image quality and augmenting data, preprocessing techniques help the model generalize better and improve its performance. Effective preprocessing can mitigate issues like image noise and variability, leading to better accuracy and robustness in detecting skin cancer.
 
-4. __Addressing Previous Action Items__
-
+4. __Addressing Previous Action Items__: 
 In the previous presentation, there was a need for more comprehensive evidence regarding the analysis conducted. Since then, I have successfully completed the following actions:
-    
-    1.	Data Exploration: I have conducted an exploratory analysis of the data, examining its characteristics and underlying patterns.
-    
-    2.	Logistic Regression Model: I have trained and evaluated a Logistic Regression model on the metadata, achieving significant results that demonstrate its effectiveness in skin cancer prediction.
-    
-    3.	Convolutional Neural Network: I was still in the process of training the Convolutional Neural Network (CNN). 
+    a.	Data Exploration: I have conducted an exploratory analysis of the data, examining its characteristics and underlying patterns.
+    b. Logistic Regression Model: I have trained and evaluated a Logistic Regression model on the metadata, achieving significant results that demonstrate its effectiveness in skin cancer prediction.
+    c. Convolutional Neural Network: I was still in the process of training the Convolutional Neural Network (CNN). 
 These steps address the previous gaps and offer a comprehensive view of the analysis and model performance.
 
 ### Conclusion
